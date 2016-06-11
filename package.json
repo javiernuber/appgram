@@ -1,0 +1,11 @@
+{
+  "name": "appgram",
+  "version": "0.1.0",
+  "description": "App prueba",
+  "main": "server.js",    
+  "author": "javiernuber",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
