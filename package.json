@@ -2,10 +2,16 @@
   "name": "appgram",
   "version": "0.1.0",
   "description": "App prueba",
-  "main": "server.js",    
+  "main": "server.js",
   "author": "javiernuber",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "materialize-css": "^0.97.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1"
   }
 }
