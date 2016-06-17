@@ -1,8 +1,13 @@
-var numeros = [ 100, 200, 300, 400, 500, 600, 700, 800 ];
-var numerosMas1 = numeros.map(function (numero) {
-	return numero + 1;
-})
-console.log(numerosMas1);
+var page = require('page');
 
-var numerosMas2 = numeros.map(n => n + 2)
-console.log(numerosMas2);
+var main = document.getElementById('main-container');
+
+page('/', function (ctx, next) {
+	main.innerHTML = 'Home <a href="/signup">Signup</a>';
+})
+
+page('/signup', function (ctx, next) {
+	main.innerHTML = 'Signup <a href="/">Home</a>';
+})
+
+page();
